@@ -1,0 +1,50 @@
+.footer-container {
+ display: block;
+ box-sizing: border-box;
+ padding-top: 20px;
+}
+
+.footer-lista-redes {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ padding: 20px;
+ gap: 12px;
+ border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-lista-redes img {
+ transition: 0.3s;
+}
+
+.footer-lista-redes img:hover {
+ transform: scale(1.13);
+ transition: 0.2s;
+}
+
+.copy-container {
+ padding: 20px 0px;
+ border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.copy {
+ text-align: center;
+}
+
+.copy a {
+ display: inline-block;
+}
+
+.copy a::after {
+ content: "";
+ width: 0%;
+ height: 2px;
+ display: block;
+ background-color: #000;
+ transition: 0.2s;
+}
+
+.copy a:hover::after {
+ width: 100%;
+ transition: 0.2s;
+}

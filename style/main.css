@@ -1,0 +1,44 @@
+.container-img {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.container-img img {
+ width: 100%;
+}
+
+.main-content {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ width: 90%;
+ height: 80%;
+ margin: 0 auto;
+ background: #d4e9e2;
+ margin-top: 20px;
+}
+
+.main-content img {
+ width: 100%;
+}
+
+.text-content {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin: auto;
+ color: #1e3932;
+}
+
+.main-content h2 {
+ font-size: 1.75rem;
+ font-weight: 500;
+ margin-bottom: 20px;
+}
+
+.main-content p {
+ width: 90%;
+ margin: 0 auto;
+ font-size: 1.25rem;
+ font-weight: 200;
+ line-height: 1.75;
+}
